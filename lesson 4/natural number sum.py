@@ -1,0 +1,10 @@
+# python program to calculate the sum of the first ten natural numbers using a while loop
+
+total_sum = 0
+num = 1
+
+while num <= 50:
+     total_sum += num
+     num += 1
+
+print(f"the sum of the first ten natural numbers is {total_sum}")
